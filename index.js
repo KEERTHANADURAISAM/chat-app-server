@@ -5,7 +5,6 @@ const dotenv = require("dotenv").config();
 const cors = require("cors");
 const Messages = require("./dbMessages");
 const app = express();
-
 const Pusher = require("pusher");
 
 app.use(express.json());
