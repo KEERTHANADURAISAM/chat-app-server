@@ -9,7 +9,7 @@ const app = express();
 const Pusher = require("pusher");
 
 app.use(express.json());
-app.use(cors("http://localhost:3001"));
+app.use(cors('*'));
 
 // pusher configuration
 const pusher = new Pusher({
